@@ -2,10 +2,19 @@
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Serif', serif;
 */
+#background {
+	background: rgb(240,240,240);
+	overflow: hidden;
+	display: block;
+	max-width: 1280px;
+	}
+
 .content {
 	padding:8px;
-	margin-bottom:10px;
+	float: center;
+	width: 100%;
 }
 
 h4 {
@@ -18,7 +27,7 @@ h2 {
 
 
 .p {
-	font-family: 'Libre Baskerville', Times, serif; font-weight:400;
+	font-family: 'Noto Serif', Times, serif; font-weight:400;
 }
 
 li {
@@ -29,19 +38,22 @@ li {
 }
 #banner {
 	font-size:x-large;
-	background-color: #9966FF;
-	padding:12px;
-	margin-bottom:24px;
+	/*background-color: #9966FF;*/
+	background-color: rgba(120,80,255,.5);
+	width: 100%;
 }
 #maintext {
-	width:60%;
+	width:58%;
 	float:left;
-	padding:inherit;
+	padding:2%;
+	float: left;
 }
 #sidefoo {
-	width:35%;
+	width:33%;
 	float:right;
 	line-height:1.5em;
+	float: right;
+	padding: 2%;
 }
 #item {
 }
@@ -52,7 +64,7 @@ li {
 }
 #description {
 	line-height:1.5em;
-	font-family: 'Libre Baskerville', Times, serif; font-weight:400;
+	font-family: 'Noto Serif', Times, serif; font-weight:400;
 
 }
 .title, .datetime {
